@@ -7,7 +7,7 @@ class Mono < Formula
   sha1 'f3f8eca1232989327240bbb6a7a000250003c33e'
 
   def install
-    system "installer", "-pkg", "MonoFramework-MDK-3.2.6.macos10.xamarin.x86.pkg", "-target", "/"
+    system "sudo", "installer", "-pkg", "MonoFramework-MDK-3.2.6.macos10.xamarin.x86.pkg", "-target", "/"
   end
 
   test do
